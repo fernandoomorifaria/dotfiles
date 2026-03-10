@@ -1,1 +1,17 @@
-/home/fernando/.config/omarchy/current/theme/neovim.lua
+return {
+  {
+    'datsfilipe/vesper.nvim'
+  },
+  {
+    'olivercederborg/poimandres.nvim'
+  },
+  {
+    'rebelot/kanagawa.nvim'
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "kanagawa-dragon",
+    }
+  }
+}
